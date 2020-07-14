@@ -8,6 +8,8 @@ Teammates who did most of this challenge -
 
 This is a challenge from rgbCTF 2020 
 
+
+
 ### Challenge description -
 
 Name a more iconic band
@@ -23,13 +25,16 @@ rgbCTF{md5("cat dog")}
 rgbCTF{b89526a82f7ec08c202c2345fbd6aef3}
 
 
+
+
 ### There is a file attached with it named `data` (which you can find in this repository)
 
 The file is a memory dump of a Windows computer
 
 Therefore, we decided to open it with `Volatility`
 
-After installation of volatility the commands are as follows
+
+### After installation of volatility the commands are as follows
 
 - `vol.py -f ~/Downloads/data imageinfo`
      - This gave information about the dump such as the operating system version, size, etc.
@@ -44,6 +49,7 @@ After installation of volatility the commands are as follows
      - After getting PIDs from the last command we used the above command to get a memory dump of particular process. We tried doing it for iexplorer, notepad, etc.
      - Finally we did a memdump for `CMD` and there was a clue there
           - The cmd output was as follows 
+          
           Radiohead
           
           !Where is the command radiohead
