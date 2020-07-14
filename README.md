@@ -12,6 +12,7 @@ This is a challenge from rgbCTF 2020
 
 ### Challenge description -
 
+```
 Name a more iconic band
 
 I'll wait.
@@ -23,7 +24,7 @@ md5(passwordA passwordB passwordC ...)
 Example: if the passwords were "dog" and "cat", the flag would be
 rgbCTF{md5("cat dog")}
 rgbCTF{b89526a82f7ec08c202c2345fbd6aef3}
-
+```
 
 
 
@@ -49,11 +50,11 @@ Therefore, we decided to open it with `Volatility`
      - After getting PIDs from the last command we used the above command to get a memory dump of particular process. We tried doing it for iexplorer, notepad, etc.
      - Finally we did a memdump for `CMD` and there was a clue there
           - The cmd output was as follows 
-          
+          ```
           Radiohead
           
           !Where is the command radiohead
-          
+          ```
      - Radiohead was also appearing a lot of times in the HTML pages from memdum of iexplorer and notepad
      - The title of the challenge also looked like a clue ( Name a more iconic band)
      - Therefore, we did grep radiohead on the dump file and found some lines like 
