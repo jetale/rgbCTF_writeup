@@ -1,5 +1,5 @@
 # rgbCTF_writeup
-Writeup for Name a more iconic band
+## Writeup for Name a more iconic band
 
 Teammates who did most of this challenge - 
 - Subhojeet Mukherjee
