@@ -32,7 +32,7 @@ Therefore, we decided to open it with `Volatility`
 After installation of volatility the commands are as follows
 
 - `vol.py -f ~/Downloads/data imageinfo`
-    This gave information about the dump such as the operating system version, size, etc.
+     - This gave information about the dump such as the operating system version, size, etc.
     
 -  `volatility -f ~/Downloads/data --profile=Win7SP1x64 pslist` 
 
