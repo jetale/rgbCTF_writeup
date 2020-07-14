@@ -27,5 +27,12 @@ rgbCTF{b89526a82f7ec08c202c2345fbd6aef3}
 
 The file is a memory dump of a Windows computer
 
-Therefore, we decided to open it with Volatility 
+Therefore, we decided to open it with `Volatility`
+
+After installation of volatility the commands are as follows
+
+- `vol.py -f ~/Downloads/data imageinfo`
+    This gave information about the dump such as the operating system version, size, etc.
+    
+-  `volatility -f ~/Downloads/data --profile=Win7SP1x64 pslist` 
 
